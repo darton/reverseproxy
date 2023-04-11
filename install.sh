@@ -117,3 +117,9 @@ server {
 }
  
 EOF
+
+sudo ln -s /etc/nginx/sites-available/proxy.example.home.conf /etc/nginx/sites-enabled/
+
+sudo nginx -t && systemctl restart nginx
+
+exit 0
