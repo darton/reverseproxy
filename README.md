@@ -1,2 +1,2 @@
 # reverseproxy
-Nginx reverse advanced proxy example
+Nginx advanced reverse proxy with mTLS example
